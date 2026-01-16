@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Model files and checkpoints
+*.bin
+*.safetensors
+*.gguf
+*.pth
+*.pt
+finetuned_models/
+checkpoints/
+logs/
+runs/
+
+# Google Colab / Drive
+/content/drive/
+
+# Training outputs
+output/
+outputs/
+wandb/
+
+# Large data files
+*.json.gz
+*.jsonl.gz
+raw_data/
+datasets/
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
