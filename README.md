@@ -162,32 +162,6 @@ The model is trained on the following instruction format:
 - **Mixed Precision**: bfloat16 for faster computation
 - **Gradient Accumulation**: Simulates larger batch sizes
 
-## 📚 Citation
-
-If you use this fine-tuning pipeline, please cite:
-
-```bibtex
-@misc{ko_legal_finetune_2026,
-  title={Korean Legal LLM Fine-tuning with QLoRA},
-  author={flyingcarycoder},
-  year={2026},
-  publisher={GitHub},
-  howpublished={\url{https://github.com/Wis7com/ko_legal_finetune}}
-}
-```
-
-### Dataset Citation
-
-```bibtex
-@dataset{korean_legal_terminology_2026,
-  title={Korean Legal Terminology Dataset},
-  author={flyingcarycoder},
-  year={2026},
-  publisher={Hugging Face},
-  howpublished={\url{https://huggingface.co/datasets/flyingcarycoder/korean-legal-terminology}}
-}
-```
-
 ## 📄 License
 
 MIT License - See [LICENSE](LICENSE) file for details
